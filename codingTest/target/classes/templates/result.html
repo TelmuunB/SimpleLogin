@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Successful Login</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>Successful Login</h1>
+    <p th:text="'loginid: ' + ${user.loginid}" />
+    <p th:text="'password: ' + ${user.password}" />
+    <a href="/login">Go back to Login page</a>
+</body>
+</html>
